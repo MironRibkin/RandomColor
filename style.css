@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.buttons{
+    width: 100px;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    background-color: rosybrown;
+    position: absolute;
+}
+.leftBottom, .rightBottom, .leftTop, .rightTop {
+    display: flex;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    font-size: 50px;
+    justify-content: center;
+}
+.leftBottom{
+    background-color: darkcyan;
+}
+.rightBottom{
+    background-color: aquamarine;
+}
+.leftTop{
+    background-color: darkred;
+}
+.rightTop {
+    background-color: olivedrab;
+}
+
+
